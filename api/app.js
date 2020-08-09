@@ -19,10 +19,6 @@ app.get('/', (req, res) => {
     })
 })
 
-// app.use('/api/v1/shipments', require('./routes/Shipments'))
-// app.use('/api/v1', require('./routes/Company'))
-// app.use('/api/v1', require('./routes/Employees'))
-
 app.use('/api/v1/reports', require('./routes/Reports'))
 
 

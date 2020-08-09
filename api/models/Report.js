@@ -1,5 +1,4 @@
 const mongoose = require('mongoose')
-const getuid = require('get-uid')
 
 const {
     Schema
