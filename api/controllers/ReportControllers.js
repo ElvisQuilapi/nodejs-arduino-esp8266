@@ -1,5 +1,4 @@
 const Report = require('../models/Report')
-const { report } = require('../app')
 
 module.exports = {
     async findAll(req, res) {
